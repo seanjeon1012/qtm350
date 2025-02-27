@@ -1,0 +1,21 @@
+project:
+  type: website  # Or "document" if it's just a single report
+  output-dir: _output  # Where rendered files are stored
+
+title: "Palmer Penguins Demo"
+author: "Your Name"
+date: "2025-02-26"
+
+format: 
+  html:
+    toc: true  # Adds a Table of Contents
+    number-sections: true  # Numbered sections
+  pdf:
+    documentclass: article
+    number-sections: true
+
+execute:
+  echo: false  # Hides code in the final document
+
+bibliography: references.bib  # Links to your citation file
+csl: chicago-author-date.csl  # Citation style (optional)
