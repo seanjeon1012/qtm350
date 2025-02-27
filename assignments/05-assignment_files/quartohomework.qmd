@@ -82,6 +82,9 @@ df[['gdp_per_capita', 'inflation_rate', 'life_expectancy']].describe()
 
 ```{python}
 # Task 4
+#| label: fig-gdp-top10
+#| fig-cap: "Top 10 Countries by GDP Per Capita"
+
 import matplotlib.pyplot as plt
 
 # Select top 10 countries
